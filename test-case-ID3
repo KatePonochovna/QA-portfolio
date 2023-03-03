@@ -4,10 +4,10 @@ Preconditions:
 - User must have a registered account
 - User must be logged in	
 № Step	
-1	Tap "Create a new visit" button	
-2	Tap "Choose a country"	
-3	Omit country choice by tapping "Choose a country" at the head of the list	
-4	Tap "Continue"	
+1. Tap "Create a new visit" button	
+2. Tap "Choose a country"	
+3. Omit country choice by tapping "Choose a country" at the head of the list	
+4. Tap "Continue"	
 Expected result:
 1. A page with country choice is displayed
 2. A list of available countries is displayed

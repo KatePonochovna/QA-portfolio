@@ -1,0 +1,17 @@
+Test case ID: LC2	
+Test case name: Correct email and correct password	
+Preconditions:
+- user must have a registered account in the app	
+№ Step	
+1. Open login through email
+2. Insert correct email	
+2. Insert correct password	
+3. Press 'Start session'	
+Expected result:
+1. A page with empty email & password fields is displayed
+2. Valid email is inserted
+3. Valid password is inserted
+4. User logged in successfully. Main menu of user's profile is displayed
+Actual result:
+- User logged in successfully 
+- Main menu of user's profile is displayed

@@ -22,5 +22,6 @@ Expected result:
 6. All fields are filled. "Save" button is enabled
 7. Internet connection is lost
 8. "No internet connection" message pops up.
-Red cross pops up instead of ""Save"" button.
+Actual result:
+Red cross pops up instead of "Save" button.
 Impossible to save data and proceed further.

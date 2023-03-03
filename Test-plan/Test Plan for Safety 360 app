@@ -1,0 +1,86 @@
+Test Plan for Safety 360 app
+
+Purpose
+
+The test plan describes the testing approach and how the full functionality of the app – Safety 360 will be tested to make sure it is fully functional and meets all of the requirements and works according to all specifications before final release.
+
+The test will execute and verify if the app meets the requirements, also will identify, fix and retest all bugs and prioritize bugs according to severity.
+
+Test Strategy
+
+The objective of test strategy is to achieve production-ready software and also to have a set of stable test scripts, plans and cases that can be reused throughout the lifespan of the application.
+All the bugs would come along with screenshots and steps to reproduce them.
+QA will be provided with access to the Test environment (like staging or beta environments).
+QA assumes all necessary inputs required during Test design and execution will be supported by other teams in the organization appropriately. 
+Test case design activities will be performed by the QA.
+Test environment and preparation activities will be owned by Dev Team
+Dev team will provide bug fix plans based on meetings during each sprint planning. The same will be used to inform the QA prior to start sprint cycles.
+Project management team will review and sign-off all test cases prepared by the QA at the start of the sprint. 
+
+Features in scope:
+QR codes
+Login workflow
+Certification management 
+Operation search
+Covid-19 prevention measurements videos 
+Evaluation test for Covid-19
+Vaccination medical verification 
+
+Features out of scope:
+App localization 
+IOS platform testing
+Coverage for new countries
+User’s documentation checkup 
+
+STLC Overview
+
+Requirement Analysis − When the SRD (Specification Requirements Document) is ready, QA starts high level analysis concerning the AUT (Application Under Test).
+Test Planning − QA plans the strategy and approach. In the case of Safety app, QA develops test types specifically for features that are being developed:  integration testing, UI testing, component testing, acceptance testing, security testing for QR codes, login, certifications, operation searching, Covid-19 videos, evaluation test, vaccination verification.
+Test Case Designing − Develop the test cases based on scope and criteria’s. For login workflow, operation search, vaccination verification features there will be used test design technique called “Cause-Effect”. For Login workflow there will be used a technique “State transition”.
+Test Environment Setup − When the integrated environment is ready to validate the product. In the Safety 360 app it takes platform setup, build installation.
+Test Execution − Real-time validation of product and finding bugs. For Safety 360 app it also takes logs gathering, feature checkup, communication with the dev team, and test results information gathering.
+Test Closure − Once testing is completed, matrix, reports, results are documented and shared with the team.
+
+Definition of Done:
+
+Functional tests passed
+Non-functional tests passed
+Acceptance criteria met
+No blockers or critical bugs opened
+Regression tests passed
+Documentation completed
+
+
+Definition of Ready:
+
+All planned features are defined
+Feature acceptance criteria defined
+Performance criteria defined
+Documentation is complete
+
+Defect Management:
+
+Defect Management as a systematic process to identify and fix bugs, contains the following stages: 
+1) Discovery of Defect (when it is acknowledged and accepted by the developers) 
+2) Defect Categorization (will help devs prioritize their work. Usually priority will be set by “critical”, “high”, “medium”, “low” standart. 
+3) Fixing of Defect by developers 
+4) Verification by QA (QA will check if the issue is really fixed)
+5) Defect Closure (Once a defect has been resolved and verified, the defect is changed status as closed). 
+6) Defect Reports at the end of project or sprint (QA prepares and sends the defect report to the management team for feedback on defect management process and defects’ status. Defect reporting helps to better communicate, track and explain defects).
+
+Acceptance criteria:
+Development completed, unit tests passed and a test build released and shared to the QA.
+Test environment is installed, configured and ready to run.
+Approved test plan and specification document.
+Approved test cases and test scope
+Test Responsibilities
+The Dev team will be responsible for planning, writing and executing unit tests.
+The QA will be responsible for manual testing, smoke testing, test planning, test cases.
+
+Test Environment and Tools:
+Android Studio for unit tests on the Android platform, using Java or Kotlin (depending on the programming language used for development).
+XCode for unit test on the iOS platform, using Swift.
+Unit tests can also be automated to run using some DevOps operations and platforms like Bitrise.
+Manual testing will be performed using a smartphone for the app.
+Bugs will be reported using JIRA.
+Documentation can be written on Confluence JIRA or Notion.

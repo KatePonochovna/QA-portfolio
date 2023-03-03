@@ -1,0 +1,26 @@
+		
+Test case ID: LC4
+Test case name: No interent connection while trying to save data for a new visit	
+Preconditions:
+- User must have a registered account 
+- User must be logged in
+№ Step:
+1	Tap "Create a new visit" button
+2	Tap "Choose a country"
+3	Choose any country from the list
+4	Insert a name for the operation and choose one from the results
+5	Tap "Continue"
+6	Fill up all necessary fields
+7	Turn off internet connection/turn on Flight mode
+8	Tap "Save" button
+Expected result:
+1. A page with country choise is displayed
+2. A list of available countries is displayed
+3. The country is chosen. "Operation" field appeared
+4. Name for the operation is inserted, operation is selected
+5. A page with fields for personal information is displayed
+6. All fields are filled. "Save" button is enabled
+7. Internet connection is lost
+8. "No internet connection" message pops up.
+Red cross pops up instead of ""Save"" button.
+Impossible to save data and proceed further.

@@ -1,18 +1,23 @@
-Test case ID: LC1	
-Test case name: Correct email and incorrect password	
-Preconditions:	
-- User must have valid email 
-- User must have a registered account in the app	
-№ Step:	
-1. Open login through email	
-2. Insert correct email	
-3. Insert incorrect password	
-4. Press 'Start session'	
-Expected result:
-1. A page with empty email & password fields is displayed
-2. Valid email is inserted
-3. Invalid password is inserted
-4. "User or password incorrect" message pops up. Login attempt failed"
-Actual result:	
-– "User or password incorrect message pops up 
-- Login attempt failed"	
+{
+"TestCase_id":"LC1",
+"Title":"Correct email and incorrect password",
+"Preconditions":
+"User must have valid email. User must have a registered account in the app",
+  "Steps":
+  {
+    "1":"Open login through email",
+    "2":"Insert correct email",
+    "3":"Insert incorrect password",
+    "4":"Press 'Start session'",
+  },
+  "Expected result":
+  {
+      "1":"A page with empty email & password fields is displayed",
+      "2":"Valid email is inserted",
+      "3":"Invalid password is inserted",
+      "4":"'User or password incorrect' message pops up. Login attempt failed",   
+  },
+ "Actual result":
+    {
+        "1": "'User or password incorrect message pops up. Login attempt failed'"
+    }

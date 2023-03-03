@@ -1,0 +1,20 @@
+{
+    "Bug_id":"1",
+    "Name": "Sign up: impossible to complete registration",
+    "Reporter": "Kate Ponochovna",
+    "Submit date": "03.03.2023",
+    "Priority":"Hight",
+    "Severity":"Major",
+    "Summary":"When I fill up all fields needed for the registration and press “submit”, after page uploading information fields are empty and registration is not completed",
+    "Platform": "Mac",
+    "Operating System": "OS X 12.6",
+    "Description": "When I fill up the registration form (insert valid last name, first name, education, occupation, email, city, how can we help, comment) and press “submit”, the page is being refreshed and after that I get back to empty sign up form with no registration completed."
+  "Steps to reproduce":
+  {
+    "1":"Go to sign up page",
+    "2":"Fill up all required fields with valid information",
+    "3":"Press 'Submit'",
+  },
+  "Expected result":"The registration is completed successfully, the verification email is sent to confirm registration",
+  "Actual result":"The page is renewed with empty fields again, no registration completed."
+}
